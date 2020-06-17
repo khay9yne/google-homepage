@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <title>TOP_Google-Homepage-Clone</title>
   <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -17,10 +18,14 @@
     </div>
     <div id="mainBox">
       <div id="mb1">
-        <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+        <div id="logoBox"><img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></div>
+        <div class="searchBox">
+          <input id="textIn" type="text" name="searchString" size=58>
+            <i class="fa fa-search" aria-hidden="true"></i>
+          </input>
+        </div>
       </div>
-      <div><input type="search"></div>
-      <div id="mb2">
+      <div id="mb3">
         <div><button type="submit">Google Search</button></div>
         <div><button type="submit">I'm Feeling Lucky</button></div>
       </div>
