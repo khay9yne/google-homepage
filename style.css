@@ -1,0 +1,55 @@
+#bodyBox {
+    font-family: arial, serif;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+#navBar {
+    margin: .1vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.navItems{
+    padding: 0 6px;
+    font-size: 0.8rem;
+}
+#mainBox{
+    margin: .1vh;
+    border-color: red;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mb1{}
+#mb2{
+    display: flex;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.54)
+}
+#footBar{
+    margin: .1vh;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem;
+}
+#fbar1{
+}
+#fbar2{
+    display: flex;
+}
+#fbar2A{
+    display: flex;
+    width: 50%;
+    justify-content: flex-start;
+}
+#fbar2B{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.footItems{
+    padding: 0 10px;
+    font-size: 0.9rem;
+}
