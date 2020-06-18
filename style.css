@@ -1,17 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 900px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 #bodyBox {
     font-family: arial, serif;
-    height: auto;
+    height: 100%;
     display: grid;
-    min-height: 100%;
 }
 #navBar {
     margin: .1vh;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    padding: 15px 20px 0 0;
 }
 .navItems{
-    padding: 0 6px;
+    padding: 0 8px;
     font-size: 0.8rem;
+}
+#images, #gmail{
+    color: rgba(0,0,0,0.54);
+}
+#gbox{
+    width:25px;
+    padding: 3px 4px 0 4px;
+}
+#signIn{
+    height: 30px;
+    width: 70px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
 }
 #mainBox{
     margin: .1vh;
@@ -31,38 +56,66 @@
 }
 .searchBox{
     position: relative;
-    padding-top: 5px;
-    padding-bottom: 15px;
+    border:solid 1px #ccc;
+    border-radius: 50px;
+    color: #ccc;
 }
 .searchBox i{
     position: absolute;
-    left: 19px;
-    top: 20px;
+    left: 13px;
+    top: 15px;
 }
 #textIn{
-    padding: 11.5px;
-    border-radius: 40px;
+    padding: 11.5px 0 11.5px 50px;
     border: none;
-    border:solid 1px #ccc;
-}
-input [type=text]{
-    width: 100%;
-}
-#mb3{
-    display: flex;
-    font-size: 1rem;
-    color: rgba(0,0,0,0.54)
-}
-#footBar{
-    margin: .1vh;
-    background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    padding: 0 1rem;
+    border-radius: 100px;
 }
 
-#fbar2{
+#mb3{
     display: flex;
+    column-gap: 15px;
+    font-size: 1rem;
+    padding: 30px 0 0 0;
+}
+.button1{
+    border: none;
+    border-radius: 4px;
+    font-style: Arial, sans-serif;
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,0.58);
+    padding: 7.5px 18px;
+}
+.gOffer{
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.offers{
+    margin: 0;
+    padding: 5px;
+}
+#hausa, #igbo, #yoruba, #pidgin{
+    color: blue;
+}
+#footBar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,0.54);
+    display: flex;
+    flex-direction: column;
+}
+#fbar1, #fbar2{
+    border: solid 1px rgb(236, 230, 230);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 #fbar2A{
     display: flex;
@@ -72,9 +125,24 @@ input [type=text]{
 #fbar2B{
     display: flex;
     width: 50%;
+    padding: 0 30px 0 0;
     justify-content: flex-end;
 }
 .footItems{
-    padding: 0 10px;
+    padding: 0 0 0 1.8em;
     font-size: 0.9rem;
+    color: rgba(0,0,0,0.54);
+}
+#advert, #business, #about, #howSearch, #privacy, #terms, #settings{
+    color: rgba(0,0,0,0.54);
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.button1:hover{
+    padding: 6px 17px;
+    border: solid 1px #ccc;
 }

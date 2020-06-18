@@ -11,27 +11,29 @@
   <main>
   <div id="bodyBox">
     <div id="navBar">
-      <div class="navItems"><p>Gmail</p></div>
-      <div class="navItems"><p>Images</p></div>
-      <div class="navItems"><p>Boxes</p></div>
-      <div class="navItems"><p>Sign In</p></div>
+      <div class="navItems"><a id="gmail" href="#">Gmail</a></div>
+      <div class="navItems"><a id="images" href="#">Images</a></div>
+      <div class="navItems"><a id="boxes" href="#"><img id="gbox" src="https://cdn3.iconfinder.com/data/icons/google-material-design-icons/48/ic_apps_48px-512.png"></a></div>
+      <div class="navItems"><button id="signIn">Sign in</button></div>
     </div>
     <div id="mainBox">
       <div id="mb1">
         <div id="logoBox"><img id="google-logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo"></div>
         <div class="searchBox">
-          <input id="textIn" type="text" name="searchString" size=58>
-            <i class="fa fa-search" aria-hidden="true"></i>
-          </input>
+          <i class="fa fa-search" aria-hidden="true"></i>
+          <input id="textIn" type="search" name="searchString" size=58>
         </div>
       </div>
       <div id="mb3">
-        <div><button type="submit">Google Search</button></div>
-        <div><button type="submit">I'm Feeling Lucky</button></div>
+        <div><button class="button1" id="gSearch" type="submit">Google Search</button></div>
+        <div><button class="button1" id="feelLuck" type="submit">I'm Feeling Lucky</button></div>
       </div>
-      <div><p>Covid-19 Text Message Placeholder</p></div>
-      <div>
-        <p>Google offered in different languages</p>
+      <div class="gOffer">
+        <span class="offers"><p>Google offered in:</p></span>
+        <span class="offers"><a id="hausa" href="#">Hausa</a></span>
+        <span class="offers"><a id="igbo" href="#">Igbo</a></span>
+        <span class="offers"><a id="yoruba" href="#">Ede Yoruba</a></span>
+        <span class="offers"><a id="pidgin" href="#">Nigerian Pidgin</a></span>
       </div>
     </div>
     <div id="footBar">
@@ -40,15 +42,15 @@
       </div>
       <div id="fbar2">
         <div id="fbar2A">
-          <div class="footItems"><p>Advertising</p></div>
-          <div class="footItems"><p>Business</p></div>
-          <div class="footItems"><p>About</p></div>
-          <div class="footItems"><p>How Search works</p></div>
+          <span class="footItems"><a id="advert" href="#">Advertising</a></span>
+          <span class="footItems"><a id="business" href="#">Business</a></span>
+          <span class="footItems"><a id="about" href="#">About</a></span>
+          <span class="footItems"><a id="howSearch" href="#">How Search works</a></span>
         </div>
         <div id="fbar2B">
-          <div class="footItems"><p>Privacy</p></div>
-          <div class="footItems"><p>Terms</p></div>
-          <div class="footItems"><p>Settings</p></div>
+          <div class="footItems"><a id="privacy" href="#">Privacy</a></div>
+          <div class="footItems"><a id="terms" href="#">Terms</a></div>
+          <div class="footItems"><a id="settings" href="#">Settings</a></div>
         </div>
       </div>
     </div>
