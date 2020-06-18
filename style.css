@@ -1,43 +1,121 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: 900px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
 #bodyBox {
     font-family: arial, serif;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+    height: 100%;
+    display: grid;
 }
 #navBar {
     margin: .1vh;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
+    padding: 15px 20px 0 0;
 }
 .navItems{
-    padding: 0 6px;
+    padding: 0 8px;
     font-size: 0.8rem;
+}
+#images, #gmail{
+    color: rgba(0,0,0,0.54);
+}
+#gbox{
+    width:25px;
+    padding: 3px 4px 0 4px;
+}
+#signIn{
+    height: 30px;
+    width: 70px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #4285f4;
+    color: #ffffff;
+    border: none;
 }
 #mainBox{
     margin: .1vh;
-    border-color: red;
+    border-color: #fff;
     border-style: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#mb1{}
-#mb2{
-    display: flex;
-    font-size: 1rem;
-    color: rgba(0,0,0,0.54)
-}
-#footBar{
-    margin: .1vh;
-    background-color: #F2F2F2;
+
+#logoBox{
     display: flex;
     flex-direction: column;
-    padding: 0 1rem;
+    align-items: center;
+    padding-top: 145px;
+    padding-bottom: 20px;
 }
-#fbar1{
+.searchBox{
+    position: relative;
+    border:solid 1px #ccc;
+    border-radius: 50px;
+    color: #ccc;
 }
-#fbar2{
+.searchBox i{
+    position: absolute;
+    left: 13px;
+    top: 15px;
+}
+#textIn{
+    padding: 11.5px 0 11.5px 50px;
+    border: none;
+    border-radius: 100px;
+}
+
+#mb3{
     display: flex;
+    column-gap: 15px;
+    font-size: 1rem;
+    padding: 30px 0 0 0;
+}
+.button1{
+    border: none;
+    border-radius: 4px;
+    font-style: Arial, sans-serif;
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,0.58);
+    padding: 7.5px 18px;
+}
+.gOffer{
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.offers{
+    margin: 0;
+    padding: 5px;
+}
+#hausa, #igbo, #yoruba, #pidgin{
+    color: blue;
+}
+#footBar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+    background-color: #F2F2F2;
+    color: rgba(0,0,0,0.54);
+    display: flex;
+    flex-direction: column;
+}
+#fbar1, #fbar2{
+    border: solid 1px rgb(236, 230, 230);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+    display: flex;
+    align-items: center;
 }
 #fbar2A{
     display: flex;
@@ -47,9 +125,24 @@
 #fbar2B{
     display: flex;
     width: 50%;
+    padding: 0 30px 0 0;
     justify-content: flex-end;
 }
 .footItems{
-    padding: 0 10px;
+    padding: 0 0 0 1.8em;
     font-size: 0.9rem;
+    color: rgba(0,0,0,0.54);
+}
+#advert, #business, #about, #howSearch, #privacy, #terms, #settings{
+    color: rgba(0,0,0,0.54);
+}
+a:link, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.button1:hover{
+    padding: 6px 17px;
+    border: solid 1px #ccc;
 }
